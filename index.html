@@ -36,6 +36,12 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/components.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/images/Electrician.webp"
+      fetchpriority="high"
+    />
     <script type="application/ld+json">
         "@context": "https://schema.org",
         "@graph": [
@@ -144,7 +150,7 @@
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
-                
+
             <span class="nav-CTA">
               <a
                 href="tel:+233240736896"
@@ -188,7 +194,7 @@
             height="900"
             fetchpriority="high"
             decoding="async"
-            loading="lazy"
+            loading="eager"
           />
           <div
             class="hero-rating"
@@ -535,9 +541,24 @@
               >
             </div>
             <div class="banner-photos" aria-hidden="true">
-              <img src="assets/images/businessImage/service-img.jpg" alt="" />
-              <img src="assets/images/businessImage/service111.jpg" alt="" />
-              <img src="assets/images/businessImage/service-img1.jpg" alt="" />
+              <img
+                src="assets/images/businessImage/service-img.jpg"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="assets/images/businessImage/service111.jpg"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+              <img
+                src="assets/images/businessImage/service-img1.jpg"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
             </div>
           </div>
         </div>
@@ -642,24 +663,32 @@
               <img
                 src="assets/images/businessImage/member1.png"
                 alt="Energy Commission Certification"
+                loading="lazy"
+                decoding="async"
               />
             </article>
             <article class="credential">
               <img
                 src="assets/images/businessImage/member2.png"
                 alt="Ghana Institution of Engineers Certification"
+                loading="lazy"
+                decoding="async"
               />
             </article>
             <article class="credential">
               <img
                 src="assets/images/businessImage/member3.png"
                 alt="Artisans Association of Ghana Certification"
+                loading="lazy"
+                decoding="async"
               />
             </article>
             <article class="credential">
               <img
                 src="assets/images/businessImage/members.png"
                 alt="Electricity Company of Ghana Certification"
+                loading="lazy"
+                decoding="async"
               />
             </article>
           </div>

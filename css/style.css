@@ -102,6 +102,8 @@ ul {
 
 .section {
   padding: clamp(64px, 7vw, 104px) 0;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 700px;
 }
 
 .section[id] {
@@ -210,18 +212,14 @@ ul {
   display: block;
 }
 
-
-
-
 .nav-list {
   display: flex;
   align-items: center;
   gap: 6px;
   justify-content: center;
-
 }
 
-.nav-list >li > a {
+.nav-list > li > a {
   padding: 10px 14px;
   border-radius: 999px;
   font-size: 0.95rem;
@@ -230,20 +228,20 @@ ul {
   transition:
     background var(--ease),
     color var(--ease);
-    text-align: center;
+  text-align: center;
 }
 
-.site-header.is-overlay:not(.is-scrolled) .nav-list > li> a {
+.site-header.is-overlay:not(.is-scrolled) .nav-list > li > a {
   color: var(--color-white);
 }
 
-.nav-list > li> a:hover,
-.nav-list >li> a[aria-current="page"] {
+.nav-list > li > a:hover,
+.nav-list > li > a[aria-current="page"] {
   background: rgba(8, 118, 206, 0.1);
   color: var(--color-primary);
 }
 
-.nav-CTA{
+.nav-CTA {
   display: none;
   position: absolute;
   left: 30%;
@@ -255,12 +253,12 @@ ul {
   padding: 0;
 }
 
-.nav-CTA a{
+.nav-CTA a {
   display: flex;
   align-items: center;
-  gap: 10px ;
+  gap: 10px;
 }
-.nav-CTA  img{
+.nav-CTA img {
   background-color: var(--color-white);
   padding: 0.5rem;
   border-radius: 50%;
@@ -482,8 +480,6 @@ ul {
   text-transform: uppercase;
   font-size: 0.82rem;
 }
-
-
 
 .services-preview {
   padding-top: clamp(76px, 8vw, 112px);
@@ -737,7 +733,7 @@ ul {
 
 .credentials {
   display: grid;
-  grid-template-columns: repeat(4 , 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }
 
@@ -887,8 +883,8 @@ ul {
   background: var(--color-black);
 }
 
-.reviews-section::before{
-  content: '';
+.reviews-section::before {
+  content: "";
   position: absolute;
   inset: 0;
   margin: auto;
@@ -898,7 +894,6 @@ ul {
   background-size: cover;
   filter: brightness(30%);
   z-index: -1;
-
 }
 
 .reviews-section .eyebrow {
@@ -919,7 +914,7 @@ ul {
 .review-summary {
   min-width: 188px;
   padding: 10px 16px 10px 10px;
- border-radius: var(--radius-sm);
+  border-radius: var(--radius-sm);
   backdrop-filter: blur(12px);
   color: var(--color-gray);
   background: rgba(208, 197, 197, 0.082);
