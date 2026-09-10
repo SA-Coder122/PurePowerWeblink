@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 48" role="img" aria-labelledby="ppTitle">
+  <title id="ppTitle">Pure Power Electricals</title>
+  <rect x="0" y="4" width="40" height="40" rx="10" fill="#E00000"/>
+  <path d="M23.5 12L14 26.2h7.2L18.8 36 30 21.4h-7.4L23.5 12z" fill="#fff"/>
+  <text x="52" y="22" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" letter-spacing="0.4" fill="#FFFFFF">PURE POWER</text>
+  <text x="52" y="36" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="600" letter-spacing="2.4" fill="#FFD4D4">ELECTRICALS</text>
+</svg>
