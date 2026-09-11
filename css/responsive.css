@@ -33,6 +33,10 @@
     min-height: 300px;
   }
 
+  .project-card > img{
+    object-fit: cover;
+  }
+
   .project-grid > div {
     display: grid;
     gap: 20px;
